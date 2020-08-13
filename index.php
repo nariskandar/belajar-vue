@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +7,13 @@
 </head>
 <body>
     <h3>Belajar</h3>
-    <div id="biodata">{{ nama }}</div>
+    
+    
+    <div id="biodata">
+        <span>{{nama}}</span>
+        <br>
+        <span>{{hobi}}</span>
+    </div>
 
     
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>

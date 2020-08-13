@@ -1,6 +1,7 @@
-var biodata = new Vue ({
-    el: '#app',
+var latihan = new Vue ({
+    el: '#biodata',
     data: {
-        nama: 'Helo Nama Saya Nandar !'
+        nama: 'Helo Nama Saya Nandar !',
+        hobi: 'Hobi bermain futsal '
     }
 })
