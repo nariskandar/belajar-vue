@@ -1,7 +1,4 @@
-<?php
-require_once 'myscript.js';
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,5 +10,9 @@ require_once 'myscript.js';
 <body>
     <h3>Belajar</h3>
     <div id="biodata">{{ nama }}</div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="myscript.js"></script>
 </body>
 </html>
